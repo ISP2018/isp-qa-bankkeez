@@ -12,10 +12,10 @@ Reference: [https://softwareengineering.stackexchange.com/questions/34173/are-th
 public void testDivide(){
 double x = 5;
 double y = 30000;
-assertEquals(0.00016,5/30000);
+assertEquals(0.00016666666666666,5/30000);
 }
 ```
-Is the code correct or it is wrong? If wrong then fix the code.
+Is the code correct or is it wrong? If correct leave the answer balnk or else fix the code correctly.
 
 Answer: 
 ``` 
@@ -25,9 +25,18 @@ public void testDivide(){
 double x = 5;
 double y = 30000;
 double expected = 0.00016666666666666;
-assertEquals(expected,5/30000,TOL);
+assertEquals(expected,x/y,TOL);
 }
 ```
+
+**Q.3** You have a java project called unitlabtest in github. In your first commit, you accidentally push **.classpath** and **.project** file. You delete the file manually through the github website. Afterthat you continue your work and now your pushing the second commit. What problem is found and how can this be fix?
+
+Answer: Sequence of commits between your local version of the branch and the remote version isn't linear, then the push will be rejected (**non-fast-forward**). This can be fix easily by using command git pull  the git push by later on.
+
+
+
+
+
 
 
 
