@@ -33,7 +33,15 @@ assertEquals(expected,x/y,TOL);
 
 Sequence of commits between your local version of the branch and the remote version isn't linear, then the push will be rejected (**non-fast-forward**). This can be fix easily by using command git pull  the git push by later on.
 
-**Q.4** 
+**Q.4** As a good developer you must be expert at debugging. Debugging will let you step through your program, jumping deeper into the lower layers and learning what really happens when you call a method, or set a value, or make a network request. Imagine you're working on an ATM program. You are at the money withdrawn part. You found many bugs while working on the part. How can you solve the problem? State atleast one way and explain.
+
+1. For java, using JUnit, create test cases to test all the method for all possible outcomes.
+
+2. According to [PAD](https://media.pragprog.com/titles/pad/PAD-pulloutcard.pdf) agile developer: Tip 25 **"Write code to be clear not clever"**.
+
+3.According to [PAD](https://media.pragprog.com/titles/pad/PAD-pulloutcard.pdf) agile developer: Tip 28 **"Write code in short/edit/build/test cycles"**.
+
+
 
 
 
