@@ -5,7 +5,7 @@
 
 (One of correct choice): As a beginner developer, you'll find the problem that that you're trying to solve that has already been solved by somebody else. Design patterns are generic solution. So as framework that extends those pattern for simplifying your application.
 
-Reference: [https://softwareengineering.stackexchange.com/questions/34173/are-there-concrete-reasons-not-to-use-libraries-and-code-snippets-heavily]
+Reference: https://softwareengineering.stackexchange.com/questions/34173/are-there-concrete-reasons-not-to-use-libraries-and-code-snippets-heavily
 
 **Q2.** 
 ``` @Test
@@ -31,7 +31,9 @@ assertEquals(expected,x/y,TOL);
 
 **Q.3** You have a java project called unitlabtest in github. In your first commit, you accidentally push **.classpath** and **.project** file. You delete the file manually through the github website. Afterthat you continue your work and now your pushing the second commit. What problem is found and how can this be fix?
 
-Answer: Sequence of commits between your local version of the branch and the remote version isn't linear, then the push will be rejected (**non-fast-forward**). This can be fix easily by using command git pull  the git push by later on.
+Sequence of commits between your local version of the branch and the remote version isn't linear, then the push will be rejected (**non-fast-forward**). This can be fix easily by using command git pull  the git push by later on.
+
+**Q.4** 
 
 
 
