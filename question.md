@@ -13,7 +13,8 @@ public void testDivide(){
 double x = 5;
 double y = 30000;
 assertEquals(0.00016,5/30000);
-}```
+}
+```
 Is the code correct or it is wrong? If wrong then fix the code.
 
 Answer: 
@@ -25,7 +26,8 @@ double x = 5;
 double y = 30000;
 double expected = 0.00016666666666666;
 assertEquals(expected,5/30000,TOL);
-}```
+}
+```
 
 
 
