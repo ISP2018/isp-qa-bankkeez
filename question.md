@@ -39,7 +39,19 @@ Sequence of commits between your local version of the branch and the remote vers
 
 2. According to [PAD](https://media.pragprog.com/titles/pad/PAD-pulloutcard.pdf) agile developer: Tip 25 **"Write code to be clear not clever"**.
 
-3.According to [PAD](https://media.pragprog.com/titles/pad/PAD-pulloutcard.pdf) agile developer: Tip 28 **"Write code in short/edit/build/test cycles"**.
+3. According to [PAD](https://media.pragprog.com/titles/pad/PAD-pulloutcard.pdf) agile developer: Tip 28 **"Write code in short/edit/build/test cycles"**.
+
+**Q.5** What is the most important key to become a good developer?
+
+1. Keep asking why.
+
+2. Seek for advice.
+
+3. Keep practicing.
+
+4. Keep learning new things.
+
+Practicing is the key to everything. Learning or asking for new things but not practicing is nothing!
 
 
 
